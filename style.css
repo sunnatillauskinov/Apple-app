@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(249, 249, 249, 0.94);
+    height: 90px;
+    border-bottom: 1px solid black;
+}
+
+.header{
+    background: rgba(249, 249, 249, 0.94);
+    height: 90px;
+    border-bottom: 1px solid black;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-around;
+}
+.watch{
+    padding: 10px;
+}
+
+.notch {
+    margin-left: 25px;
+}
+
+.set {
+    padding: 10px 0 0 10px;
+}
+
+.logo {
+   display: flex;
+   justify-content: center;
+   padding-top: 25px;
+   padding-bottom: 5px;
+   
+}
+.lang {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.tillar {
+    padding-top: 50px;
+}
+
+.uzb {
+    text-align: center;
+    padding: 10px 100px;
+    font-weight: 900;
+    font-size: 20px;
+    padding-top: 10px;
+    margin: 20px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.rus {
+    padding: 10px 100px ;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.eng {
+    padding: 10px 100px ;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: 900;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.link_uzb{
+color: #3FAAD7;
+}    
+
+.link_rus {
+    color:#3FAAD7 ;
+}
+
+.link_eng {
+    color: #3FAAD7;
+}
+
+.lang_title {
+    color:cadetblue;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.nazat {
+cursor: pointer;
+padding: 17px 0 0 10px;
+display: flex;
+
+}
+
+.nazat_btn {
+    font-weight: 700;
+    font-size: 17px;
+    padding-left: 10px;
+    color: #171717;
+   
+}
+
+.nazat_icon {
+padding-right: 7px;
+ margin-bottom: -2px;
+}
+
+.login_tel {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+margin: 15px 0;
+
+}
+
+.login_tel_text {
+    margin-right: 215px;
+    font-size: 19px;
+}
+
+.login_input {
+    width: 290px;
+    height: 50px;
+    background: #C4C4C4;
+    border: none;
+    font-size: 17px;
+    
+   
+}
+
+.login_input::placeholder{
+  color: white;
+  padding-left: 15px;
+}
+
+.login_btn {
+    width: 290px;
+    height: 50px;
+    background: #C4C4C4;
+    border: none;
+    font-size: 17px;
+    margin: 15px 0;
+
+}
+
+.parol {
+    display: flex;
+    justify-content: center;
+    margin-left: 130px;
+    
+}
+
+.vayti {
+    color: black;
+    font-size: 18px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.telegram {
+padding-left: 30px;
+padding-right: 20px;
+}
+
+.home_logo {
+   display: flex;
+   justify-content: center;
+   transform: translateY(50px);
+}
+
+.welcome {
+   
+    margin-top: 85px;
+}
+
+.welcome_title {
+color: #376a8f91;
+width: 271px;
+font-family:'revert';
+margin: 0 auto;
+text-align:center;
+}
+
+.enter_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222931a1;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.enter_link {
+    color: rgb(36, 42, 42);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.loading_img {
+    width: 222px;
+}
+
+
+.cancel{
+    display: flex;
+    justify-content: center;
+    transform: translate(0px, 145px);
+}
+
+.cancel_link {
+font-size: 25px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+display: flex;
+align-items: center;
+color: skyblue;
+
+}
+
+.cancel_img {
+    width: 40px;
+   margin-right: 10px;
+}
+
+@media (max-width:380px) {
+    .notch_img{
+        width: 185px;
+    }
+
+    .about,
+    .contact,
+    .partfolio{
+        width: 95%;
+    }
+}
+
+.logo_img {
+    width: 345px;
+}
+
+.login_tel_text_uz{
+    font-size: 19px;
+    margin-right: 80px;
+}
+
+.login_tel_text_rus{
+    margin-right: 130px;
+    font-size: 19px;
+}
+
+.login_tel_text_eng {
+    font-size: 19px;
+    margin-right: 150px;
+}
+.register_text{
+display: flex;
+text-align: center;
+justify-content: center;
+max-width: 270px;
+margin: 0 auto;
+}
+
+.about {
+    width: 350px;
+    height: 130px;
+    background: rgb(72, 190, 194);
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    transform: translateX(0);
+    transition: 1.1 all;
+    box-shadow: 10px 10px 40px 10px rgb(75, 135, 139);
+    margin-top: 20px;
+}
+
+.partfolio {
+     width: 350px;
+    height: 130px;
+    background: rgb(22, 20, 22);
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.about:hover {
+    box-shadow: 10px 10px 40px 10px rgb(72, 190, 194);
+}
+
+.partfolio:hover {
+    box-shadow: 10px 10px 40px 10px rgb(0, 0, 0);
+}
+.contact:hover {
+    box-shadow: 10px 10px 40px 10px rgb(75, 135, 139);
+}
+.contact {
+    width: 350px;
+    height: 130px;
+    background: rgb(69, 182, 129);
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    box-shadow: 10px 10px 40px 10px rgb(75, 135, 139);
+}
+
+.about_link {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.me_img {
+    display: flex;
+    justify-content: center;
+}
+
+.about_title_uz {
+    color: slategray;
+    margin: 0px 0 0 30px;
+}
+
+@media  (max-width:350px){
+    .notch_img {
+        width: 170px;
+    }
+
+    .about,
+    .contact,
+    .partfolio{
+        width: 95%;
+    }
+
+    .logo_img{
+        width: 330px;
+    }
+}
+
+@media (max-width:330px) {
+    .notch{
+        width: 160px;
+    }
+}
